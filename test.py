@@ -5,6 +5,7 @@ d = {}
 for x in range(len(digits)):
     d["int{0}".format(x)] = int(digits[x].strip())
 
+
 D_keys = list(d.keys())
 D_values = list(d.values())
 
